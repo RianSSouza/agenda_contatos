@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda Telefonica</h1>
+        </header>
+        <form id="form-telefonica">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome-contato" placeholder="Nome do contato" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone-contato" name="telefone" placeholder="(11) 99999-9999"
+                    title="Número de telefone precisa ser no formato (99) 9999-9999" required>
+            </div>
+            <button type="submit">Adcionar</button>
+        </form>
+        <table>
+            <caption>Lista de contatos</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Nome do Contato
+                    </th>
+                    <th>
+                        Telefone
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
